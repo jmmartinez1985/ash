@@ -33,6 +33,7 @@ model MediaSpace {
   store       Store     @relation(fields: [storeId], references: [id])
 }
 
+
 model MediaItem {
   id              Int           @id @default(autoincrement())
   type            String
